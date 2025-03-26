@@ -1,0 +1,22 @@
+@layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply dark bg-background  text-foreground ;
+    }
+  }
+  .vite-logo {
+    width: 24px;
+    height: 24px;
+    animation: spin 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
